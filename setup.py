@@ -94,6 +94,9 @@ setup(
         'numpy',
         'scipy',
         'mozsci'
-    ]
+    ],
+    setup_requires = [
+       'lxml'
+    ] 
 )
 
